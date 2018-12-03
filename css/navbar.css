@@ -1,0 +1,8 @@
+.nav{
+    background: var(--lightgray);
+}
+
+.navbar-brand{
+    color: var(--darkgray);
+    font-family: 'Passion One', cursive;
+}
