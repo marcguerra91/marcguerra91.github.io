@@ -1,8 +1,20 @@
 .navbar{
-    background: var(--lightgray);
+    background:black;
+    color: rgb(36,198,224);
+    border-color: rgb(36,198,224);
 }
 
 .navbar-brand{
-    color: var(--darkgray);
-    font-family: 'Bevan', cursive;
+    color: rgb(36,198,224);
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 2em;
+    border:1px solid  rgb(36,198,224);
 }
+.nav-link{
+    color: rgb(36,198,224);
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 2em;
+    border:1px solid  rgb(36,198,224);
+}
+
+

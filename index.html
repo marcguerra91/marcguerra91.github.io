@@ -13,10 +13,12 @@
 
   <link rel="stylesheet" href="./css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
 </head>
 
-<body>
-  <!--Navbar-->
+<!--Navbar-->
+  <body>
 
   <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="#">Marc Guerra</a>
@@ -27,49 +29,31 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            Dropdown
+            Projects
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="https://codepen.io/marcguerra91/">Creature</a>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      </form> -->
     </div>
   </nav>
+  
   <!--Header-->
     <div class="jumbotron">
         <p class="line-1 anim-typewriter" class="display-4">Marc Guerra</p>
-          <p class="lead">Hire me!</p>
+        <hr class="my-4">
+          <p class="line-1 anim-typewriter2" id="titleTwo">.NET Developer</p>
           <hr class="my-4">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </div>
 
   <!--About Section-->
   <section id="About"></section>
-
-  <br>
-  <br>
-  <br>
-  <br>
   <br>
   <h1>About Section</h1>
   <div id="live-poll-area">
@@ -78,16 +62,71 @@
     </div>
     <div class="answer-list"></div>
   </div>
-
+  <br>
+  <br>
+  <br>
+  <br>
   <!--Project Section-->
-  <section id="Project"></section>
+  <section class="projects">
+    <h2 class="text-center text-uppercase">Projects</h2>
+    <div class="col-md-4" id="leftColumn">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/img/img/creature.PNG" style="width:100%;height:100%;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Creature</h1> 
+            <br>
+            <p><a href="https://codepen.io/marcguerra91/pen/zmXMyZ">Click here for the link.</a></p> 
+            <br>
+            <p>Project one utilizing HTML/CSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4" id="middleColumn">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/img/img/console.PNG" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Console App</h1> 
+            <br>
+              <p><a href="https://github.com/marcguerra91/.Net-152-Challenges/tree/master/Challenge_2">Click here for the link.</a></p> 
+            <br>
+              <p>Challenge two utilizing a que in a console app</p>
+            </div>
+          </div>
+        </div>
+      </div>
+              <div class="col-md-4" id="rightColumn">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/img/img/mvc.PNG" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Modest Jobs App</h1> 
+            <br>
+              <p><a href="https://modestjobs.azurewebsites.net">Click here for the link.</a></p> 
+            <br>
+              <p>MVC 5 Application with a minimum of Three data tables</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
 
   <!--Contact Section-->
-  <section id="Contact"></section>
-
+<br>
   <div class="container">
     <h2 class="text-center text-uppercase">Contact Me</h2>
-    <div class="row">
+    <div>
       <form action="https://formspree.io/Marcguerra91@gmail.com" method="POST">
         <div class="control-group">
           <div class="form-group">
@@ -133,7 +172,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 
-  <script src="./js/title.js"></script>
 </body>
 
 </html>

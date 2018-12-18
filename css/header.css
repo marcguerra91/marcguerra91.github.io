@@ -1,9 +1,10 @@
 .jumbotron{
-    background: url('https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?cs=srgb&dl=clouds-fog-forest-9754.jpg&fm=jpg')
-    no-repeat center 25%;
-    background-size: cover;
-    color:white;
-    text-shadow: 0.5em 0.5em 0.5em var(--darkgray);
-    text-align:center;
 
+    background-color:black;
+    padding: 8em;
+    background-position:130% 50%;
+    margin-bottom: 7em;
+    color: rgb(36,198,224);
+  text-shadow:0 0 5px rgba(36,198,224,1.0);
+    text-align:center;
 }
