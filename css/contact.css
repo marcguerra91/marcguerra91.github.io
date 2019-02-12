@@ -1,0 +1,13 @@
+.container{
+    color: rgb(36,198,224);
+    border-radius: 2em;
+    border:1px solid  rgb(36,198,224);
+    text-align: center;
+    width:21em;
+    background-color: black;
+}
+.control-group{
+    position: center;
+    right:0em;
+    width: 300px;
+}

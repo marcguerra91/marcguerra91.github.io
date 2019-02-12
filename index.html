@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Marc Guerra</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+
+<!--Navbar-->
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">Marc Guerra</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Social Media
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://github.com/marcguerra91/">GitHub</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://www.linkedin.com/in/marc-guerra-2b6393174/">LinkedIn</a>
+          </div>
+          </form>
+    </div>
+  </nav>
+
+  <!--Header-->
+  <div class="jumbotron">
+    <p class="line-1 anim-typewriter" class="display-4">Marc Guerra</p>
+    <hr class="my-4">
+    <p class="line-1 anim-typewriter2" id="titleTwo">.NET Developer</p>
+    <hr class="my-4">
+  </div>
+
+  <!--About Section-->
+  <section id="About">
+    <br>
+    <h1>About Marc</h1>
+    <p>Hello, my name is Marc Guerra. I currently reside in the small town of Frankfort located in Indiana.
+      I'm a highly motivated junior developer with over 500 hours of coding experience. View my projects from left to
+      right and see how ive progressed in 12 weeks. When I'm not honing my .Net skills, you can find me spending time
+      with my family, or hiking among the many trails available in the lovely midwest. Feel free to contact me if you
+      want to work together. I'd love to hear from you.</p>
+    <div id="live-poll-area">
+      <div class="graph-container">
+        <div class="graph"></div>
+      </div>
+      <div class="answer-list"></div>
+  </section>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Project Section-->
+  <section class="projects">
+    <h2 class="text-center text-uppercase">Projects</h2>
+    <br>
+    <div class="leftmargin">
+      <div class="col-md-4" id="leftColumn">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/img/img/creature.PNG" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Creature</h1>
+              <br>
+              <p><a href="https://codepen.io/marcguerra91/pen/zmXMyZ">Click here for the link.</a></p>
+              <br>
+              <p>Project one utilizing HTML/CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="middleColumn">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/img/img/console.PNG" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Console App</h1>
+              <br>
+              <p><a href="https://github.com/marcguerra91/.Net-152-Challenges/tree/master/Challenge_2">Click here for
+                  the link.</a></p>
+              <br>
+              <p>Project two utilizing a que in a console app</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="rightColumn">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/img/img/mvc.PNG" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Modest Jobs App</h1>
+              <br>
+              <p><a href="https://modestjobs.azurewebsites.net">Click here for the link.</a></p>
+              <br>
+              <p>MVC5 Application with a minimum of Three data tables</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+
+  <!--Contact Section-->
+  <br>
+  <div class="container">
+    <h2 class="text-center text-uppercase">Contact Me</h2>
+    <div>
+      <form action="https://formspree.io/Marcguerra91@gmail.com" method="POST">
+        <div class="control-group">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Your Name" id="name" required
+              data-validation-required-message="Please enter your name" name="name">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" class="form-control" placeholder="Your Email" id="email" required
+              data-validation-required-message="Please enter your email" name="_replyto">
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="form-group">
+            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+              data-validation-required-message="Please leave a message" name="message"></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="text-center">
+          <div id="success"></div>
+          <button type="submit" class="btn btn-lg btn-black">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+</html>

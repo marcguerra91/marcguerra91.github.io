@@ -1,0 +1,57 @@
+h2{
+  color: rgb(36,198,224);
+  text-shadow: 0 0 5px rgba(36,198,224,1.0);
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 2em;
+  border:2px solid  rgb(36,198,224);
+  margin: .2%;
+}
+.projects{
+  background-color: black;
+}
+.col-md-4{
+  display: inline-block;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  display: inline-block;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  z-index: 2;
+  border:2px solid  rgb(36,198,224);
+}
+.flip-card-back {
+  background-color:black;
+  color:rgb(36,198,224);
+  text-shadow: 0 0 5px rgba(36,198,224,1.0);
+  font-family: 'Orbitron', sans-serif;
+  border:2px solid  rgb(36,198,224);
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+#rightColumn{
+  display: inline;
+}
+.leftmargin{
+  margin-left: 7%;
+}
